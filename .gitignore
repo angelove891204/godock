@@ -5,4 +5,5 @@
 /nginx/ssl/*.csr
 
 /nginx/sites/*.conf
+!/nginx/sites/default.conf
 !/nginx/sites/example.com.conf
