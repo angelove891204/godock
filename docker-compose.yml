@@ -51,8 +51,9 @@ services:
     golang:
         build:
             context: ./golang
+        working_dir: /var/www
         volumes: 
-            - ../go:/go
+            - D:\code\go:/var/www
         networks:
             - app-network
         tty: true
