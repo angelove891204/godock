@@ -51,7 +51,7 @@ services:
     golang:
         build:
             context: ./golang
-        working_dir: /var/www
+        # working_dir: /var/www
         volumes: 
             - D:\code\go:/var/www
         networks:
